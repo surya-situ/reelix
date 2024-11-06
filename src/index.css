@@ -1,0 +1,18 @@
+/* 
+  - Background color   : #27272a / zinc-800
+  - Secondary color    : #ff6100
+  - Text color         : #fafafa / zinc-50
+  - Selector color     : #ff6100
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: #fafafa;
+}
+
+::selection {
+  color: #ff6100;
+}
